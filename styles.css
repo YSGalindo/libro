@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.libros-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.libro {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 200px;
+  margin: 10px;
+}
+
+.libro h2 {
+  font-size: 18px;
+}
+
+.libro p {
+  margin: 10px 0;
+}
